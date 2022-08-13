@@ -1,11 +1,13 @@
-dateModified: 1660369443
+dateModified: 1660369512
 email:
   fromEmail: info@angelokeirsebilck.be
   fromName: 'AK Craft Headless'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    490b3fe2-e318-4b25-b2e3-70feb066813c: Standaard # Standaard
     851a6d57-751a-4d95-a567-43b9142bb629: Common # Common
+    4437e620-c55f-4d41-b64d-603e23deab11: Pages # Pages
     ad9fe9dd-b9d1-478a-b2f0-f19e4955638b: 'AK Craft Headless' # AK Craft Headless
     fad3d472-dae9-43a0-9645-52b832a5d382: 'AK Craft Headless' # AK Craft Headless
 system:

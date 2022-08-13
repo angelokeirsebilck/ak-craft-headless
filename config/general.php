@@ -48,5 +48,7 @@ return GeneralConfig::create()
 
     ->enableGql(true)
 
+    ->headlessMode(true)
+
     ->maxUploadFileSize('50M')
 ;

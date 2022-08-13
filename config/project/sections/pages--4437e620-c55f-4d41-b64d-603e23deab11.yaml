@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  ad9fe9dd-b9d1-478a-b2f0-f19e4955638b: # AK Craft Headless
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: 95cc2ae3-13dd-4954-923a-a8c465dc092c
+type: structure

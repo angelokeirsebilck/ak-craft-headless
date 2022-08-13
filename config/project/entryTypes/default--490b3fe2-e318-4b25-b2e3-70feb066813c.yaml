@@ -1,0 +1,43 @@
+fieldLayouts:
+  80e05abe-ced1-40d3-b461-b1809fb3a28b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 92a5e723-1a84-4fbb-8460-da581621d95c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 357e3f25-09a8-419e-94b7-64c78dd0dec0
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Standaard
+section: 4437e620-c55f-4d41-b64d-603e23deab11 # Pages
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
