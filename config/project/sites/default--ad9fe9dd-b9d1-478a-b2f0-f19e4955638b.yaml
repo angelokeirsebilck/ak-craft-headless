@@ -4,5 +4,5 @@ hasUrls: true
 language: nl-BE
 name: 'AK Craft Headless'
 primary: true
-siteGroup: fad3d472-dae9-43a0-9645-52b832a5d382
+siteGroup: fad3d472-dae9-43a0-9645-52b832a5d382 # AK Craft Headless
 sortOrder: 1
