@@ -13,7 +13,7 @@ previewTargets:
             - 'Live Preview'
           -
             - urlFormat
-            - 'https://livepreview-demo-astro-angelo.netlify.app/{language|slice(0,2)}/{uri}?preview=true&id={id}'
+            - 'https://livepreview-demo-astro-angelo.netlify.app/{language|slice(0,2)}/{uri}?preview=true'
           -
             - refresh
             - '1'
@@ -26,7 +26,7 @@ previewTargets:
             - 'Development Preview'
           -
             - urlFormat
-            - 'http://localhost:3002/{language|slice(0,2)}/{uri}?preview=true&id={id}'
+            - 'http://localhost:3002/{language|slice(0,2)}/{uri}?preview=true'
           -
             - refresh
             - '1'

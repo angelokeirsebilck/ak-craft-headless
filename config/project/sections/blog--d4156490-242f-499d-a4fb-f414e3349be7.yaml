@@ -13,7 +13,7 @@ previewTargets:
             - 'Live Preview'
           -
             - urlFormat
-            - 'https://livepreview-demo-astro-angelo.netlify.app/{language|slice(0,2)}/{uri}?preview=true&id={id}'
+            - 'https://livepreview-demo-astro-angelo.netlify.app/{language|slice(0,2)}/{uri}?preview=true'
           -
             - refresh
             - '1'

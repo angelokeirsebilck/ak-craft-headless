@@ -1,4 +1,4 @@
-dateModified: 1660630516
+dateModified: 1660647827
 email:
   fromEmail: info@angelokeirsebilck.be
   fromName: 'AK Craft Headless'
@@ -30,7 +30,7 @@ system:
   name: 'Demo Headless'
   retryDuration: null
   schemaVersion: 4.0.0.9
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Brussels
 users:
   allowPublicRegistration: false
   defaultGroup: null
