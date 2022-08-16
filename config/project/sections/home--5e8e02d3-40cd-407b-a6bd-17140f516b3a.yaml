@@ -1,0 +1,45 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+previewTargets:
+  __assoc__:
+    -
+      - 1
+      -
+        __assoc__:
+          -
+            - label
+            - 'Live Preview'
+          -
+            - urlFormat
+            - 'https://preview.demo-astro.be?preview=true'
+          -
+            - refresh
+            - '1'
+    -
+      - 0
+      -
+        __assoc__:
+          -
+            - label
+            - 'Development Preview'
+          -
+            - urlFormat
+            - 'http://localhost:3002/{language|slice(0,2)}?preview=true'
+          -
+            - refresh
+            - '1'
+propagationMethod: all
+siteSettings:
+  8457c135-7678-4f24-af19-07d4c35fa6fb: # Demo Headless EN
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: __home__
+  ad9fe9dd-b9d1-478a-b2f0-f19e4955638b: # Demo Headless NL
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: __home__
+type: single

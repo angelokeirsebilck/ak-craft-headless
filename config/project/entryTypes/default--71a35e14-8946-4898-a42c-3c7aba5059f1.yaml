@@ -1,0 +1,43 @@
+fieldLayouts:
+  43ba9343-a399-41e6-bbf7-38c4f7cee506:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 54b955a0-c7ba-45e1-9b44-2bff30abd463
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: e9e61dbe-93d0-463d-bb4f-80e32a51e906
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Standaard
+section: d4156490-242f-499d-a4fb-f414e3349be7 # Blog
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

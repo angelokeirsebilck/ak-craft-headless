@@ -1,0 +1,9 @@
+baseUrl: '@web/en'
+enabled: '1'
+handle: en
+hasUrls: true
+language: en
+name: 'Demo Headless EN'
+primary: false
+siteGroup: fad3d472-dae9-43a0-9645-52b832a5d382 # Demo Headless
+sortOrder: 2

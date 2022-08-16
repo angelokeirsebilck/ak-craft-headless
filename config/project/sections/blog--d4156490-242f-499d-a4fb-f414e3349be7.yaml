@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: pages
-name: Pages
+handle: blog
+name: Blog
 previewTargets:
   -
     __assoc__:
@@ -10,7 +10,7 @@ previewTargets:
         - 'Development Preview'
       -
         - urlFormat
-        - 'http://localhost:3002/{language|slice(0,2)}/{uri}?preview=true&id={id}'
+        - 'http://localhost:3002/{language|slice(0,2)}/{uri}?preview=true'
       -
         - refresh
         - '1'
@@ -20,13 +20,10 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: '{parent.uri}/{slug}'
+    uriFormat: 'blog/{slug}'
   ad9fe9dd-b9d1-478a-b2f0-f19e4955638b: # Demo Headless NL
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: '{parent.uri}/{slug}'
-structure:
-  maxLevels: null
-  uid: 95cc2ae3-13dd-4954-923a-a8c465dc092c
-type: structure
+    uriFormat: 'blog/{slug}'
+type: channel

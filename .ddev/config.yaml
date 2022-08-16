@@ -1,4 +1,4 @@
-name: ak-craft-headless
+name: demo-craft-headless
 type: php
 docroot: web
 php_version: "8.1"

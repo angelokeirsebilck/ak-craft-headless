@@ -1,0 +1,9 @@
+baseUrl: '@web/nl'
+enabled: true
+handle: nl
+hasUrls: true
+language: nl-BE
+name: 'Demo Headless NL'
+primary: true
+siteGroup: fad3d472-dae9-43a0-9645-52b832a5d382 # Demo Headless
+sortOrder: 1

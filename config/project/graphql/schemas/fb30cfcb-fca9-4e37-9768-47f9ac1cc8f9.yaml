@@ -1,0 +1,15 @@
+isPublic: false
+name: 'Private Schema'
+scope:
+  - 'sites.ad9fe9dd-b9d1-478a-b2f0-f19e4955638b:read' # Demo Headless NL
+  - 'sites.8457c135-7678-4f24-af19-07d4c35fa6fb:read' # Demo Headless EN
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.d4156490-242f-499d-a4fb-f414e3349be7:read' # Blog
+  - 'entrytypes.71a35e14-8946-4898-a42c-3c7aba5059f1:read' # Standaard
+  - 'sections.5e8e02d3-40cd-407b-a6bd-17140f516b3a:read' # Home
+  - 'entrytypes.83a8a256-9f16-4532-aa9c-1db2a29ecf9f:read' # Home
+  - 'sections.4437e620-c55f-4d41-b64d-603e23deab11:read' # Pages
+  - 'entrytypes.490b3fe2-e318-4b25-b2e3-70feb066813c:read' # Standaard
+  - 'entrytypes.f62b3890-c7cb-4001-805a-9b35cb91dde9:read' # Blog Overview

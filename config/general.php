@@ -18,6 +18,7 @@ return GeneralConfig::create()
 
 ->aliases([
     '@web' => craft\helpers\App::env('PRIMARY_SITE_URL'),
+    '@previewUrl' => craft\helpers\App::env('PREVIEW_URL'),
     '@webroot' => dirname(__DIR__) . '/web',
 ])
 

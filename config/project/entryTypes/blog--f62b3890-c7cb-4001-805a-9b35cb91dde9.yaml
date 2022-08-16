@@ -1,0 +1,43 @@
+fieldLayouts:
+  b74e2917-ed1a-42b2-9b54-b98d491d0bf5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 63fce487-1829-4cbb-866f-65d63fe6f0b4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 1796cec9-016e-4367-8711-119f3f759e50
+        userCondition: null
+handle: blog
+hasTitleField: true
+name: 'Blog Overview'
+section: 4437e620-c55f-4d41-b64d-603e23deab11 # Pages
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
