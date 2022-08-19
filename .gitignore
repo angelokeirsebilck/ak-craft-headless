@@ -4,3 +4,4 @@
 .DS_Store
 .htaccess
 /web/images
+web/.htaccess
