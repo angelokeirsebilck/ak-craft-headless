@@ -1,5 +1,5 @@
 fieldLayouts:
-  80e05abe-ced1-40d3-b461-b1809fb3a28b:
+  9f251e80-0296-4793-b6c0-b720e82bc525:
     tabs:
       -
         elementCondition: null
@@ -25,31 +25,19 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 92a5e723-1a84-4fbb-8460-da581621d95c
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 5e6ea048-af0d-4de3-87eb-17e80f1ab1f9 # Pagebuilder
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 7b09b4ff-943b-4ed7-a90a-270714523fba
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 86a02ff2-4034-400f-b410-43e924a4ffcf
             userCondition: null
             warning: null
             width: 100
         name: Inhoud
-        uid: 357e3f25-09a8-419e-94b7-64c78dd0dec0
+        uid: aea5a1b0-bcff-41a3-ba69-a80d109574a4
         userCondition: null
-handle: default
-hasTitleField: true
-name: Standaard
-section: 4437e620-c55f-4d41-b64d-603e23deab11 # Pages
+fs: images
+handle: images
+name: Images
 sortOrder: 1
-titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

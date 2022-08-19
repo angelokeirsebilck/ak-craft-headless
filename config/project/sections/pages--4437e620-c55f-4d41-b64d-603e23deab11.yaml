@@ -30,6 +30,19 @@ previewTargets:
           -
             - refresh
             - '1'
+    -
+      - 2
+      -
+        __assoc__:
+          -
+            - label
+            - 'Live Preview Static'
+          -
+            - urlFormat
+            - 'http://localhost:3002/livepreview?uri={uri}&siteId={siteId}'
+          -
+            - refresh
+            - '1'
 propagationMethod: all
 siteSettings:
   8457c135-7678-4f24-af19-07d4c35fa6fb: # Demo Headless EN

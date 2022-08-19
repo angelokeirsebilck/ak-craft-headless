@@ -11,5 +11,10 @@ scope:
   - 'sections.5e8e02d3-40cd-407b-a6bd-17140f516b3a:read' # Home
   - 'entrytypes.83a8a256-9f16-4532-aa9c-1db2a29ecf9f:read' # Home
   - 'sections.4437e620-c55f-4d41-b64d-603e23deab11:read' # Pages
-  - 'entrytypes.490b3fe2-e318-4b25-b2e3-70feb066813c:read' # Standaard
   - 'entrytypes.f62b3890-c7cb-4001-805a-9b35cb91dde9:read' # Blog Overview
+  - 'entrytypes.490b3fe2-e318-4b25-b2e3-70feb066813c:read' # Standaard
+  - 'volumes.24427b5e-f49a-4f67-bdb3-11c6c5cfe21b:read' # Images
+  - 'usergroups.everyone:read'
+  - 'categorygroups.6999b63f-5262-4d54-af3d-44d07ced4f94:read' # Blog
+  - 'navigationNavs.all:read'
+  - 'navigationNavs.0943e200-aab5-4746-92a4-c4ffc5df43ec:read' # Main Navigation

@@ -1,0 +1,19 @@
+columnSuffix: qplajncl
+contentColumnType: text
+fieldGroup: 2e1c45d6-a4d7-43c8-99cb-8eeddb33a0dc # Navigation
+handle: fieldMainNav
+instructions: null
+name: 'Main Nav'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

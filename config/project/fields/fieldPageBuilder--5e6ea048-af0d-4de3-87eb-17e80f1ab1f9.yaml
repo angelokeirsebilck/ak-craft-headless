@@ -1,0 +1,137 @@
+columnSuffix: xtedhoqh
+contentColumnType: text
+fieldGroup: 851a6d57-751a-4d95-a567-43b9142bb629 # Common
+handle: fieldPageBuilder
+instructions: null
+name: Pagebuilder
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  fieldData:
+    -
+      __assoc__:
+        -
+          - id
+          - group-N54TJ9fYso
+        -
+          - name
+          - Blocks
+        -
+          - blockTypes
+          -
+            -
+              __assoc__:
+                0:
+                  - id
+                  - type-yBv0eiATwP
+                1:
+                  - name
+                  - Image
+                2:
+                  - handle
+                  - blockImage
+                3:
+                  - icon
+                  -
+                    __assoc__:
+                      -
+                        - label
+                        - Image
+                      -
+                        - value
+                        - image-solid
+                5:
+                  - enabled
+                  - true
+                6:
+                  - layoutUid
+                  - b0cd0188-bfb3-4e90-9fd8-4a992162ea24
+                7:
+                  - layoutConfig
+                  -
+                    __assoc__:
+                      -
+                        - tabs
+                        -
+                          -
+                            __assoc__:
+                              0:
+                                - name
+                                - Content
+                              1:
+                                - uid
+                                - a5e4c702-fd1c-4e84-a721-c6b0f8d22920
+                              4:
+                                - elements
+                                -
+                                  -
+                                    __assoc__:
+                                      0: [type, craft\fieldlayoutelements\CustomField]
+                                      5: [required, true]
+                                      6: [width, 100]
+                                      7: [uid, a3ece984-6902-4ae9-8761-8b39f6b9488e]
+                                      10: [fieldUid, 16b5d839-d569-4f73-baf9-e5da2e27a4a1] # Image
+            -
+              __assoc__:
+                0:
+                  - id
+                  - type-49tNE7OS3w
+                1:
+                  - name
+                  - Text
+                2:
+                  - handle
+                  - blockText
+                3:
+                  - icon
+                  -
+                    __assoc__:
+                      -
+                        - label
+                        - 'Text Width'
+                      -
+                        - value
+                        - text-width-solid
+                5:
+                  - enabled
+                  - true
+                6:
+                  - layoutUid
+                  - fd0741be-27e5-4dd3-8ef7-d368142330d5
+                7:
+                  - layoutConfig
+                  -
+                    __assoc__:
+                      -
+                        - tabs
+                        -
+                          -
+                            __assoc__:
+                              0:
+                                - name
+                                - Content
+                              1:
+                                - uid
+                                - f48a13cc-d440-4b2a-97dc-7e14f09480b3
+                              4:
+                                - elements
+                                -
+                                  -
+                                    __assoc__:
+                                      0: [type, craft\fieldlayoutelements\CustomField]
+                                      5: [required, false]
+                                      6: [width, 100]
+                                      7: [uid, 8fded562-7cad-4fdd-915d-7357dc02b450]
+                                      10: [fieldUid, d63a595a-5b29-407b-81ec-6768c4eec946] # Text
+  manualConfig: ''
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  trimEmptyParagraphs: true
+  vizyConfig: Standard.json
+translationKeyFormat: null
+translationMethod: site
+type: verbb\vizy\fields\VizyField

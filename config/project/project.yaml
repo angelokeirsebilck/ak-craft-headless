@@ -1,24 +1,60 @@
-dateModified: 1660647827
+dateModified: 1660883962
 email:
   fromEmail: info@angelokeirsebilck.be
   fromName: 'AK Craft Headless'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: '@assetsUrl/images'
 meta:
   __names__:
+    2e1c45d6-a4d7-43c8-99cb-8eeddb33a0dc: Navigation # Navigation
+    5e6ea048-af0d-4de3-87eb-17e80f1ab1f9: Pagebuilder # Pagebuilder
     5e8e02d3-40cd-407b-a6bd-17140f516b3a: Home # Home
+    16b5d839-d569-4f73-baf9-e5da2e27a4a1: Image # Image
     71a35e14-8946-4898-a42c-3c7aba5059f1: Standaard # Standaard
     83a8a256-9f16-4532-aa9c-1db2a29ecf9f: Home # Home
     490b3fe2-e318-4b25-b2e3-70feb066813c: Standaard # Standaard
     851a6d57-751a-4d95-a567-43b9142bb629: Common # Common
+    0943e200-aab5-4746-92a4-c4ffc5df43ec: 'Main Navigation' # Main Navigation
     4437e620-c55f-4d41-b64d-603e23deab11: Pages # Pages
+    6999b63f-5262-4d54-af3d-44d07ced4f94: Blog # Blog
     8457c135-7678-4f24-af19-07d4c35fa6fb: 'Demo Headless EN' # Demo Headless EN
+    24427b5e-f49a-4f67-bdb3-11c6c5cfe21b: Images # Images
     ad9fe9dd-b9d1-478a-b2f0-f19e4955638b: 'Demo Headless NL' # Demo Headless NL
+    b829282e-cc38-4902-affa-58a50d1f19f1: 'Main Nav' # Main Nav
     cc3be257-592b-4833-adb1-8495fb7b3952: 'Public Schema' # Public Schema
+    d63a595a-5b29-407b-81ec-6768c4eec946: Text # Text
     d4156490-242f-499d-a4fb-f414e3349be7: Blog # Blog
     f62b3890-c7cb-4001-805a-9b35cb91dde9: 'Blog Overview' # Blog Overview
     fad3d472-dae9-43a0-9645-52b832a5d382: 'Demo Headless' # Demo Headless
     fb30cfcb-fca9-4e37-9768-47f9ac1cc8f9: 'Private Schema' # Private Schema
 plugins:
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: OL3NKN1U2WM0NLZJY0AQN82J
+    schemaVersion: 2.0.2
+    settings:
+      bypassProjectConfig: false
+      pluginName: Navigatie
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
   vizy:
     edition: standard
     enabled: true
