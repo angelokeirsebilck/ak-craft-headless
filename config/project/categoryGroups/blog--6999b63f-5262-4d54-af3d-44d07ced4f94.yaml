@@ -38,13 +38,13 @@ handle: blog
 name: Blog
 siteSettings:
   8457c135-7678-4f24-af19-07d4c35fa6fb: # Demo Headless EN
-    hasUrls: false
+    hasUrls: true
     template: null
-    uriFormat: null
+    uriFormat: '{{craft.entries.section(''pages'').type(''blog'').siteId(1).one().uri}}/{slug}'
   ad9fe9dd-b9d1-478a-b2f0-f19e4955638b: # Demo Headless NL
     hasUrls: true
     template: null
-    uriFormat: 'alias(@previewUrl)/{slug}'
+    uriFormat: '{{craft.entries.section(''pages'').type(''blog'').siteId(2).one().uri}}/{slug}'
 structure:
   maxLevels: null
   uid: 135047d0-1f1f-48e8-881c-7b1df103e829
